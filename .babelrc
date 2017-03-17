@@ -1,3 +1,9 @@
 {
-  "presets": [ "es2015" ]
+  "presets": [
+    "latest"
+  ],
+  "plugins": [
+    "babel-plugin-transform-class-properties",
+    "babel-plugin-transform-object-rest-spread"
+  ]
 }
